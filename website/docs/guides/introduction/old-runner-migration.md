@@ -334,7 +334,7 @@ object Main {
 }
 ```
 
-Files with no extensions have been supported in the `2.13.x` old runner, but not in `3.x`.
+Files with no extensions have been supported in the `2.13.x` old runner, and in `3.x`.
 
 Script syntax in files with no extension (or with extensions not indicating other kinds of sources, like `.java`) are
 supported in Scala CLI via the `shebang` sub-command (and not otherwise).
